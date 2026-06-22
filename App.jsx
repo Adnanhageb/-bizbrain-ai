@@ -6,10 +6,6 @@ import Dashboard from ‘./Dashboard.jsx’
 import ChatInterface from ‘./ChatInterface.jsx’
 import ReportsPanel from ‘./ReportsPanel.jsx’
 import AlertsPanel from ‘./AlertsPanel.jsx’
-import AlertsPanel from ‘./AlertsPanel.jsx’
-import ChatInterface from ‘./ChatInterface.jsx’
-import ReportsPanel from ‘./ReportsPanel.jsx’
-import AlertsPanel from ‘./AlertsPanel.jsx’
 
 function App() {
   const [currentView, setCurrentView] = useState('upload')
