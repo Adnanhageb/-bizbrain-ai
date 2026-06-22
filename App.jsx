@@ -1,11 +1,11 @@
-import React, { useState, useCallback } from 'react'
-import { Brain, Upload, BarChart3, MessageSquare, FileText, Bell, Settings, ChevronLeft, X, Download, TrendingUp, TrendingDown, AlertTriangle, CheckCircle, Lightbulb, Send, Sparkles, FileSpreadsheet, Trash2 } from 'lucide-react'
-import * as XLSX from 'xlsx'
-import { analyzeFinancialData, formatNumber, generateChatResponse, generatePDFReport } from './utils/analysis'
-import Dashboard from './components/Dashboard'
-import ChatInterface from './components/ChatInterface'
-import ReportsPanel from './components/ReportsPanel'
-import AlertsPanel from './components/AlertsPanel'
+import React, { useState, useCallback } from ‘react’
+import { Brain, Upload, BarChart3, MessageSquare, FileText, Bell, Settings, ChevronLeft, X, Download, TrendingUp, TrendingDown, AlertTriangle, CheckCircle, Lightbulb, Send, Sparkles, FileSpreadsheet, Trash2 } from ‘lucide-react’
+import * as XLSX from ‘xlsx’
+import { analyzeFinancialData, formatNumber, generateChatResponse, generatePDFReport } from ‘./analysis.js’
+import Dashboard from ‘./Dashboard.jsx’
+import ChatInterface from ‘./ChatInterface.jsx’
+import ReportsPanel from ‘./ReportsPanel.jsx’
+import AlertsPanel from ‘./AlertsPanel.jsx’
 
 function App() {
   const [currentView, setCurrentView] = useState('upload')
